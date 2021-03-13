@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F77BA56D25FB59E4006FEEE4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77BA56C25FB59E4006FEEE4 /* MainTabController.swift */; };
 		F7D0D14125FA1E8F0015B015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0D14025FA1E8F0015B015 /* AppDelegate.swift */; };
 		F7D0D14325FA1E8F0015B015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0D14225FA1E8F0015B015 /* SceneDelegate.swift */; };
 		F7D0D14525FA1E8F0015B015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0D14425FA1E8F0015B015 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F77BA56C25FB59E4006FEEE4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		F7D0D13D25FA1E8F0015B015 /* FirestoreTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D0D14025FA1E8F0015B015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D0D14225FA1E8F0015B015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F77BA56625FB5932006FEEE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F77BA56725FB5939006FEEE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F77BA56825FB594C006FEEE4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F77BA56925FB594E006FEEE4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F77BA56A25FB5950006FEEE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F77BA56C25FB59E4006FEEE4 /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F77BA56B25FB5953006FEEE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F7D0D13425FA1E8F0015B015 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +101,12 @@
 		F7D0D13F25FA1E8F0015B015 /* FirestoreTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				F77BA56625FB5932006FEEE4 /* Model */,
+				F77BA56725FB5939006FEEE4 /* View */,
+				F77BA56B25FB5953006FEEE4 /* ViewModel */,
+				F77BA56A25FB5950006FEEE4 /* Controller */,
+				F77BA56925FB594E006FEEE4 /* API */,
+				F77BA56825FB594C006FEEE4 /* Utils */,
 				F7D0D14025FA1E8F0015B015 /* AppDelegate.swift */,
 				F7D0D14225FA1E8F0015B015 /* SceneDelegate.swift */,
 				F7D0D14425FA1E8F0015B015 /* ViewController.swift */,
@@ -139,6 +190,7 @@
 			files = (
 				F7D0D14525FA1E8F0015B015 /* ViewController.swift in Sources */,
 				F7D0D14125FA1E8F0015B015 /* AppDelegate.swift in Sources */,
+				F77BA56D25FB59E4006FEEE4 /* MainTabController.swift in Sources */,
 				F7D0D14325FA1E8F0015B015 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
